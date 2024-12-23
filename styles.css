@@ -9,7 +9,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.6;
-  background: linear-gradient(135deg, #f0f0f0, #ffffff);
+  background-color: #ffffff;
   color: #333333;
   max-width: 800px;
   margin: 2rem auto;
@@ -84,10 +84,19 @@ footer {
 
 /* ------------------------------------------
    DARK MODE OVERRIDES
+   /* Dark mode overrides */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+.dark-mode article {
+  border-color: #444;
+}
+/* etc. */
 ------------------------------------------ */
 .dark-mode {
   /* Replace light gradient with a darker one */
-  background: linear-gradient(135deg, #252525, #0f0f0f);
+  background-color: #121212;
   color: #f0f0f0;
 }
 
