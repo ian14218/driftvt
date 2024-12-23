@@ -10,7 +10,11 @@
 
   <!-- Header / Navigation -->
   <header>
-    <h1><a href="index.html">My Minimalistic Blog</a></h1>
+    <h1><a href="index.html">DriftVT</a></h1>
+    <img src="/images/DriftVT.jpeg" style="width:128px;height:128px;"/>
+    </header>
+    <!-- Dark Mode Toggle Button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
   </header>
 
   <!-- Blog Post Listing -->
@@ -18,26 +22,29 @@
     <article>
       <h2><a href="posts/post1.html">First Blog Post</a></h2>
       <p class="post-meta">December 23, 2024 • 3 min read</p>
-      <p>
-        This is a brief description of my first blog post. Click to read more.
-      </p>
+      <p>This is a brief description of my first blog post. Click to read more.</p>
     </article>
 
     <article>
       <h2><a href="posts/post2.html">Second Blog Post</a></h2>
       <p class="post-meta">December 15, 2024 • 5 min read</p>
-      <p>
-        A short teaser for my second post. Click to dive into the story.
-      </p>
+      <p>A short teaser for my second post. Click to dive into the story.</p>
     </article>
-
     <!-- Add more <article> entries as needed -->
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Your Name</p>
+    <p>&copy; 2024 @DriftVT</p>
   </footer>
+
+  <!-- Inline JavaScript for Dark Mode Toggle -->
+  <script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
   
 </body>
 </html>
