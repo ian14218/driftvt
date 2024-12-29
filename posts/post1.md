@@ -1,4 +1,4 @@
-# [DriftVT](../index.html)
+# [DriftVT](/index.html)
 
 ## Why I am writing on here?
 
